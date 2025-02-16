@@ -1,7 +1,14 @@
-function twonumbers(num1,num2){
-    const result = num1 + num2;
-    console.log(result)
-    return result;
+function market(totalMoney, fish , meat, oil, rice){
+    const totalCost  = fish + meat + oil + rice;
+    const sum = totalMoney - totalCost;
+    return sum;
+   
 }
-const output =twonumbers(10,20);
-console.log(output)
+totalMoney =1500;
+const fish =399;
+const meat =200;
+const oil =368;
+const rice =299;
+
+const returnMoney = market (totalMoney, fish , meat, oil, rice);
+console.log(returnMoney);
