@@ -1,7 +1,7 @@
-function twonumbers(){
-    const num1 = 85;
-    const num2 =35;
+function twonumbers(num1,num2){
     const result = num1 + num2;
     console.log(result)
+    return result;
 }
-twonumbers();
+const output =twonumbers(10,20);
+console.log(output)
